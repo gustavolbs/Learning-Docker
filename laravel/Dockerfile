@@ -1,6 +1,6 @@
 FROM php:7.4-cli
 
-WORKDIR /var/wwww
+WORKDIR /var/www
 
 RUN apt-get update && \
     apt-get install libzip-dev -y && \
